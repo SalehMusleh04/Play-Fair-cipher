@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PlayFair Project</title>
+</head>
+<body>
+    <script src="PlayFair.js"></script>
+ <div class="all-containers">
+
+<main class="data-container">
+    
+    <div id="header">
+    <h2>PlayFair Cipher</h2>
+</div>
+<form method="get">
+
+
+<div id="key">
+    <label for="key"> Key  </label><br>
+    <input type="text" name="key"  placeholder="Enter The Key" id="keyInput" required>
+</div>
+
+<div id="plaintext">
+    <label for="plaintext" id="pt">Plain Text  </label><br>
+    <input type="text" name="plaintext" placeholder="Enter The Encrypted/Plain Text" id="plaintextInput" required>
+</div>
+
+<div id="btns" >
+<div id="btn1">
+<button  type="button" id="enBtn"  onclick="PlayfairAction(event);">Encrypt Text</button>
+</div>
+<div id="btn2">
+<button type="button" id="deBtn" onclick="PlayfairAction(event)">Decrypt Text</button>
+</div>
+</div>
+
+</form>
+</main>
+
+
+ </div>
+</body>
+</html>

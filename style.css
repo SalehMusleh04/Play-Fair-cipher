@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing : border-box ; 
+}
+
+#header {
+    background-color: #3c8dd3;
+    color: #fffafa;
+    border: black solid 2px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.9);
+}
+
+body{
+    background-color: #202020;
+}
+
+.all-containers{
+    background-color: aqua;
+    height: 93vh;
+}
+
+.data-container{
+    background-color: aliceblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-container > form {
+    width: 28vw;
+    height: 55vh;
+    margin-top: 20px;
+    background-color: rgb(220, 172, 112);
+    padding: 70px;
+    border: #4d4d4d solid 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn1  {
+    margin-right: 20px;
+}
+
+#btn1 > button , #btn2 > button {
+    padding: 15px;
+    border-bottom: 2px solid black ;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #2b2a30;
+    box-shadow: 0 5px 10px rgba(0,0 ,0 , 0.5 );
+    font-size: 14px;
+}
+
+#plaintext{
+    margin: 30px;
+}
+
+#plaintext label , #key label{
+  color: #f5f5f5;
+  font-size: 25px;
+  font-family: 'Helvetica', sans-serif;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+  background: linear-gradient( to top , #273427, #615e5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#plaintext > input , #key > input{
+    padding: 15px;
+    border-radius: 13px;
+    font-size: 15px;
+    border: rgb(17, 17, 17) 2px solid;
+}
+
+#plaintext > input::placeholder  {
+  font-size: 12.5px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+}
+
+#key > input::placeholder {
+  font-size: 15px;  
+  position: relative;
+  top: 3px;
+  font-weight: bold;
+}
+
+#btn1 > button:hover , #btn2 > button:hover {
+    padding: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #45a0ef;
+    transition: 0.7s;
+    box-shadow: 0 5px 10px rgba(0,0 ,0 , 0.5 );
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+}
